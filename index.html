@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>SAFTEY</title>
+    <title>Home</title>
 
     <script type="hompage.js"></script>
     <link rel="stylesheet" href="style.css">
@@ -11,23 +11,26 @@
     <div class="topnav" id="myTopnav">
       <a href="index.html" class="active">Home</a>
       <a href="covid-19.html">COVID-19</a>
-      <a href="dis.html">DROP YOU THING //COME BACK TO</a>
+      <a href="dis.html">Symptoms</a>
       <a href="contact.html">Contact</a>
       
       <a href="javascript:void(0);" class="icon" onclick="myFunction()">
         <i class="fa fa-bars"></i>
       </a>
     </div>
+    <section id = "first">    
+      <h1 id="title"> General Health & Safety Information </h1>
+      <p class = "tPar"> As of September 19th, Doug Ford annouced that all of Ontario would be changing their
+        <br>
+        limits on gatherings. The amount of people was 50 but it is now 10 and outside gatherings were
+        <br>
+        100 but have now been put down to 25 to reduce any potential spikes in covid cases.
+      </p>
+  </section>
 
-    <h1 id="title"> General Health & Safety Information </h1>
-    <p class = "tPar"> As of September 19th, Doug Ford annouced that all of Ontario would be changing their
-      <br>
-      limits on gatherings. The amount of people was 50 but it is now 10 and outside gatherings were
-      <br>
-      100 but have now been put down to 25 to reduce any potential spikes in covid cases.
-    </p>
     
 
+  <section id = "second">
     <h2 id= "subHeader"> Precautions to take</h2>
     <p> The virus effects everyone differently on so please take nessecary precautions </p>
 
@@ -42,8 +45,11 @@
       <li> Don't disobey the grouping limits within your city  </li>
       <li> Avoid gatherings of large people  </li>
     </ul>
+  </section>
 
+  <section id = "right">
     <div class = "right">
+  
     <h2> PPE </h2>
     <p > These following items can help you increase the chances of not getting the virus </p>
     <ul class =  "boldList"> 
@@ -56,7 +62,12 @@
 
     </ul>
     </div>
+  </section>
 
+  
+
+
+  <section id = "last">    
     <h2 id= "subHeader"> Enter in health info (optional) </h2>
     <p> You can put in your health info to recieve extra help. </p>
     <div class = "healthCheck">
@@ -69,6 +80,9 @@
           <button class = "healthCheck" type ="button" id = "result" onclick="healthCheck()">  Submit</button>
       </form>
   </div>
+
+</section>
+
     
     
   </body>

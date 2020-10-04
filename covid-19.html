@@ -3,21 +3,67 @@
   <head>
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
-    <title>title</title>
+    <title>Covid-19 health risks</title>
+    <script src="animation.js"></script>
   </head>
   <body>
     <div class="topnav" id="myTopnav">
         <a href="index.html" class="active">Home</a>
         <a href="covid-19.html">COVID-19</a>
 
-        <a href="dis.html">DROP YOU THING //COME BACK TO</a>
+        <a href="dis.html">Symptoms</a>
         <a href="contact.html">Contact</a>
         
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
           <i class="fa fa-bars"></i>
         </a>
       </div>
+      
+    <div class = "Simulation">
+        <p> 
+                  
+          <figure style="float: right;"> 
+            <button type="button" id = "restartSpawner" onclick="restart()">Restart Simulation</button><br>
+            <canvas id="canvas" width=300 height=300></canvas>
+            <figcaption>Simulation of the Virus </figcaption>
+          </figure>
+        </p>
+                    
+        
+    </div>
+    
+    <section id = "textBody">
+        
+        <div>
+        <h2 id= "subHeader"> Facts about COVID-19</h2>
+        
+        <ul id = "covid-19List"> 
+          <li > <p id = "covidText"> Coronaviruses are a large family of viruses found mostly in animals. 
+            In humans, they can cause diseases ranging from the common cold to more severe diseases such as Severe Acute Respiratory Syndrome 
+            (SARS) and Middle East Respiratory Syndrome (MERS). The disease caused by the new coronavirus has been named COVID-19.</p> </li>
+          <li> <p id = "covidText"> COVID-19 was first identified in late 2019. It was declared a global pandemic by the World Health Organization in March 2020.</p></li>
+          <li><p id = "covidText">Coronavirus (COVID-19) is an illness caused by a virus that can spread from person to person.</p></li>
+          <li><p id = "covidText">The virus that causes COVID-19 is a new coronavirus that has spread throughout the world. </p></li>
+          <li><p id = "covidText">COVID-19 symptoms can range from mild (or no symptoms) to severe illness</p></li>
+          <li><p id = "covidText">You can become infected by coming into close contact (about 6 feet or two arm lengths) with a person who has COVID-19. COVID-19 is primarily spread from person to person.</p></li>
+          <li><p id = "covidText">You can become infected from respiratory droplets when an infected person coughs, sneezes, or talks.</p></li>
+          <li><p id = "covidText">You may also be able to get it by touching a surface or object that has the virus on it, and then by touching your mouth, nose, or eyes.</p></li>
+          <li><p id = "covidText">There is currently no vaccine to protect against COVID-19. The best way to protect yourself is to avoid being exposed to the virus that causes COVID-19.</p></li>
+          <li><p id = "covidText">Wash your hands often with soap and water for at least 20 seconds, or use an alcoholbased hand sanitizer that contains at least 60% alcohol.</p></li>
+          <li><p id = "covidText">If you must go in person, stay at least 6 feet away from others and disinfect items you must touch.</p></li>
+          <li><p id = "covidText">Avoid public transportation, ride-sharing, or taxis</p></li>
+          <li><p id = "covidText">• Older adults and people of any age who have serious underlying medical conditions may be at higher risk for more severe illness. </p></li>
 
-    <h1>TEST</h1>
+        
+        
+        </ul>
+      
+      </div>
+  </section>
+
+    
+    
+    
+
   </body>
 </html>
