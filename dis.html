@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>SAFTEY</title>
+
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="topnav" id="myTopnav">
+      <a href="index.html" class="active">Home</a>
+      <a href="covid-19.html">COVID-19</a>
+      <a href="dis.html">DROP YOU THING //COME BACK TO</a>
+      <a href="contact.html">Contact</a>
+      
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+
+    <h1 id="title"> Experiencing Symptoms</h1>
+    
+    <div lass = "tempCheck">
+        <form> 
+            Enter Tempreature (in celsisus): <input type="text" id="tempIn" value="">
+            <p class = "tempCheck" id="temp"></p>
+            <button class = "tempCheck" type ="button" id = "result" onclick="tempCheck()">Submit Tempreature</button>
+        </form>
+    </div>
+
+    <div lass = "tempCheck" > 
+        <form id = "myCheck">
+            <p id = "tpar" > Common Symptoms</p>
+            <input type="checkbox" id="cough" name="symp1" value="cough">
+            <label for="symp1"> Do you have a dry cough </label><br>
+            <input type="checkbox" id="tired" name="symp1" value="tired">
+            <label for="tired"> Do you feel tired/drowsy lately </label><br>
+            
+            <p id= "tpar"> Less common Symptoms</p>
+            <input type="checkbox" id="pain" name="symp1" >
+            <label for="pain"> Are you feeling aces and pain</label><br> 
+            <input type="checkbox" id="throat" name="symp1" >
+            <label for="throat"> Are you feeling a sore throat</label><br> 
+            <input type="checkbox" id="diarrhoea" name="symp1">
+            <label for="throat"> Are you expereincing diarrhoea</label><br> 
+            <input type="checkbox" id="conjunctivitis" name="symp1">
+            <label for="throat"> Have you had a case of pink eye reently</label><br> 
+            <input type="checkbox" id="headache" name="symp1">
+            <label for="throat"> Have you been expereincing headaches</label><br> 
+            <input type="checkbox" id="taste"  name="symp1">
+            <label for="throat"> Have you been expereincing the loss of taste or smell</label><br> 
+
+            <p id = "tpar">Serious symptoms:</p>
+            <input type="checkbox" id="breathing" name="symp1">
+            <label for="breathing"> Have you been expereincing difficulty breathing or shortness of breath</label><br> 
+            <input type="checkbox" id="chest" name="symp1">
+            <label for="chest"> Have you been expereincing chest pain or pressure</label><br> 
+            <input type="checkbox" id="speech" name="symp1">
+            <label for="speech"> Have you been expereincing loss of speech or movement</label><br> 
+            <button class = "tempCheck" type ="button" id = "result" onclick="checkList()">Check Results for medical aid</button>
+            <p id = "seekAttention"> </p>
+
+        </form>
+    </div>
+    
+
+    
+    
+  </body>
+</html>
